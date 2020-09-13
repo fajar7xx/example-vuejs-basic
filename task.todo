@@ -1,0 +1,32 @@
+tutorial yang di kerjakan disini:
+    ☐ https://www.youtube.com/watch?v=4deVCNJq3qc menit 
+    ☐ https://youtu.be/4deVCNJq3qc?t=3539
+    https://youtu.be/4deVCNJq3qc?t=6075 1.41.15
+    ☐ https://youtu.be/4deVCNJq3qc?t=7270  2.01.07
+    ☐ https://youtu.be/4deVCNJq3qc?t=9303  2.35
+    ☐ https://youtu.be/4deVCNJq3qc?t=9804 2.43.24
+    ☐ https://opentdb.com/
+        ☐ https://opentdb.com/api.php?amount=10&category=9&type=multiple
+    
+yang sudah di install di vue:
+    ☐ bootstrap-vue https://bootstrap-vue.org/
+    ☐ 
+
+settingannya :
+    "rules": {
+        "no-console" : 0
+      }
+
+      error core js
+
+      module.exports = {
+  presets: [
+    // '@vue/cli-plugin-babel/preset'
+    [ "@vue/app", { useBuiltIns: "entry" } ]
+  ]
+}
+
+fix linting bisa pakai ini 
+yarn lint --fix
+npm run lint --fix
+npm run lint
